@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion, PanInfo } from 'motion/react';
 import { Menu, Droplets, Sun, Thermometer, Wind, Settings, Camera, BarChart3, Layers, Power, Clock, Users, ShoppingCart, Upload, MessageSquare, Download, Play, Pause, Gauge, Fan, Bell, Wifi, Smartphone, Monitor, Shield, Database, Globe, Volume2 } from 'lucide-react';
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
-import logo from 'figma:asset/2fbd7a9e8178240e32120e1140f89c566d547773.png';
+import logo from './assets/2fbd7a9e8178240e32120e1140f89c566d547773.png';
 
 export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
