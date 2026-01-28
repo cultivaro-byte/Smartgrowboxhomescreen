@@ -8,4 +8,9 @@
   Run `npm i` to install the dependencies.
 
   Run `npm run dev` to start the development server.
+
+  ## Standalone app
+
+  Run `npm run standalone` to build the app (if needed) and launch the local executable server.
+  You can also run the executable directly with `./smartgrowbox`.
   
